@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "removeComments": false,
+    "noEmitOnError": true,
+    "noResolve": false,
+    "experimentalDecorators": true,
+    "strict": false,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "allowUnusedLabels": true,
+    "jsx": "react",
+    "strictPropertyInitialization": false,
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "compileOnSave": false
+}
