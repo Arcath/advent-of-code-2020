@@ -19,6 +19,7 @@ Where XX is the puzzle number e.g. `01`.
 Puzzle output is as follows
 
  - 01 - 02 - Console
+ - 03 - Console & screen.jpg
 
 ## Tests
 
