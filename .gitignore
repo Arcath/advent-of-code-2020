@@ -4,3 +4,5 @@ node_modules/
 **/screen-*.jpg
 **/screen.gif
 **/screen-*.gif
+
+build/
