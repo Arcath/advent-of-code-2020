@@ -6,6 +6,7 @@
     "puzzle": "ts-node run.ts"
   },
   "dependencies": {
+    "@arcath/utils": "^0.5.1",
     "@types/jest": "^26.0.16",
     "@types/node": "^14.14.10",
     "canvas": "^2.6.1",

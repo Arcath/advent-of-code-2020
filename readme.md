@@ -20,7 +20,7 @@ Puzzle output is as follows
 
  - 01 - 02 - Console
  - 03 - Console & screen-X.gif
- - 04 - Console
+ - 04 - 06 - Console
 
 ## Tests
 
