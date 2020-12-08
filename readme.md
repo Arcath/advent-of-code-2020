@@ -20,7 +20,7 @@ Puzzle output is as follows
 
  - 01 - 02 - Console
  - 03 - Console & screen-X.gif
- - 04 - 06 - Console
+ - 04 - 08 - Console
 
 ## Tests
 
@@ -29,3 +29,9 @@ npm test
 ```
 
 This will run jest for all puzzles. The tests run with the example data in the puzzles to ensure that the solution operates (at least in principle) as the puzzle requires.
+
+```
+npm test -- XX
+```
+
+This will run jest for the given day where XX is the puzzle number e.g. `01`.
