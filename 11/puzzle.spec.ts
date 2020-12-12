@@ -1,4 +1,4 @@
-import {parseMap, applyRules, findStable, EMPTY, OCCUPIED} from './puzzle'
+import {parseMap, applyRules, applyFacingRules, findFacingSeats, findStable, EMPTY, OCCUPIED} from './puzzle'
 
 const SAMPLE = `L.LL.LL.LL
 LLLLLLL.LL
@@ -25,5 +25,17 @@ describe('Day 11', () => {
     expect(newMap[0][0]).toBe(OCCUPIED)
 
     expect(findStable(map)).toBe(37)
+  })
+
+  it('should pass part 2', () => {
+    const map = parseMap(SAMPLE)
+
+    const facing = findFacingSeats(map, [0, 2])
+
+    expect(facing.length).toBe(5)
+
+    const newMap = applyFacingRules(map)
+
+    expect(newMap[0][0]).toBe(OCCUPIED)
   })
 })
