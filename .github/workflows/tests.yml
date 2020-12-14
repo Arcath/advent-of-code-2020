@@ -9,6 +9,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14'
+      - run: apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
       - run: npm install
       - run: npm test
       - name: Tests ✅

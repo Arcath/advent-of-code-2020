@@ -6,11 +6,13 @@
     "puzzle": "ts-node run.ts"
   },
   "dependencies": {
-    "@arcath/utils": "^0.5.1",
+    "@arcath/utils": "^0.5.2",
+    "@types/cli-progress": "^3.8.0",
     "@types/jest": "^26.0.17",
     "@types/node": "^14.14.11",
     "canvas": "^2.6.1",
     "canvas-gif-encoder": "^0.1.2",
+    "cli-progress": "^3.8.2",
     "jest": "^26.6.3",
     "sodb": "^3.0.0-pre2",
     "ts-jest": "^26.4.4",
