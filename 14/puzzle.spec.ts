@@ -20,7 +20,7 @@ describe('Day 14', () => {
   })
 
   it('should solve part 2', () => {
-    const mem = initializeMemoryLocs(SAMPLE_2.split(`\n`))
+    const [mem] = initializeMemoryLocs(SAMPLE_2.split(`\n`))
 
     const total = mem.reduce((c, n) => c + n)
     
