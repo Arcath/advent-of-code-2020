@@ -9,8 +9,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14'
-      - run: sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
-      - run: npm install
+      - name: 'Install Deps'
+        run: sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+      - name: 'Install NPM Deps'
+        run: npm install
       - run: npm test
       - name: Tests ✅
         if: ${{ success() }}

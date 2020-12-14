@@ -1,5 +1,7 @@
 # Advent of Code 2020
 
+![Tests CI](https://github.com/Arcath/advent-of-code-2020/workflows/Tests%20CI/badge.svg)
+
 My solutions to the Advent of Code 2020 puzzles.
 
 Install dependencies through npm.
