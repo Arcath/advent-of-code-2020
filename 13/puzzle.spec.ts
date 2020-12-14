@@ -1,4 +1,4 @@
-import {parseBusLine, findFirstBus} from './puzzle'
+import {parseBusLine, findFirstBus, findSequence} from './puzzle'
 
 const SAMPLE = `939
 7,13,x,x,59,x,31,19`
@@ -18,5 +18,11 @@ describe('Day 13', () => {
 
     expect(first.bus).toBe(59)
     expect(first.time).toBe(5)
+  })
+
+  it('should solve part 2', () => {
+    const result = findSequence(`17,x,13,19`)
+
+    expect(result).toBe(BigInt(3417))
   })
 })
